@@ -61,9 +61,9 @@ int main(void){
     pixel_buffer_start=*pixel_ctrl_ptr;
 
     clear_screen();
-    draw_line(0, 0, 150, 150, 0x001F);
-    draw_line(150, 150, 319, 0, 0x07E0);
-    draw_line(0, 239, 319, 239, 0xF800);
-    draw_line(319, 0, 0, 239, 0xF81F);
+    draw_line(0, 0, 150, 150, 0x001F);          //blue line
+    draw_line(150, 150, 319, 0, 0x07E0);        //green line
+    draw_line(0, 239, 319, 239, 0xF800);        //red line
+    draw_line(319, 0, 0, 239, 0xF81F);          //pink line
     
 }
